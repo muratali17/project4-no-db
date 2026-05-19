@@ -15,5 +15,7 @@ spec:
       containers:
       - name: my-springboot-app-container
         image: muratdockerd/app:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 8081
+        
